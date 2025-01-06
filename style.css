@@ -74,32 +74,33 @@
   border-radius: 50%;
 }
 
-.imageStack {
+.holidayImg {
   display: flex;
   flex-direction: row;
   width: 1vh;
 }
 
 .img1 {
-  width: 450px;
-  margin-bottom: -100px;
+  width: 400px;
+  height: 500px;
   position: relative;
-  /* height: 500px; */
-  /* width: auto; */
+  top: 200px;
+  z-index: 1;
 }
 
 .img2 {
-  /* margin-right: -150px; */
-  margin-top: 100px;
-  position: absolute;
+  position: relative;
+  margin-right: -200px;
+  z-index: 1;
 }
 
 .img3 {
-  margin-left: 200px;
-  width: 492;
+  position: relative;
 }
 
 .img4 {
-  margin-top: -20px;
-  width: 91%;
+  position: relative;
+  border-radius: 10px;
+  top: -60px;
+  width: 100%;
 }
