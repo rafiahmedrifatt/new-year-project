@@ -104,3 +104,17 @@
   top: -60px;
   width: 100%;
 }
+
+.img-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.protfolio-title {
+  margin-left: 50px;
+}
+
+.protfolio {
+  margin: 60px auto;
+}
