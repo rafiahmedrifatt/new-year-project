@@ -118,3 +118,17 @@
 .protfolio {
   margin: 60px auto;
 }
+
+.newsletter {
+  height: 616px;
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter .img-container {
+  max-width: 150px;
+  height: 150px;
+}
